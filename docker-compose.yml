@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  manage-users:
+    image: go-service-create-user-pool
+    build: .
+    ports:
+      - "8088:8088"
+  
+  
